@@ -1,0 +1,110 @@
+/* styling for whole webpage*/
+*{
+    margin:0;
+    padding:0;
+    
+}
+/* Styling for the content of webpage*/
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+}
+/* Styling for h2 heading */
+h2{
+    margin-top: 10px;
+    color:blue
+}
+h3{
+    margin-top:10px;
+    color:blue;
+}
+/* Styling for footer */
+footer{
+    position: fixed;
+    bottom: 0px;
+    right:0px;
+}
+/* Class created for the haeding for the page*/
+.banner{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    background-color: rgb(231, 231, 231);
+    
+}
+.banner h1{
+    font-size:30px;
+    width:400px;
+    
+    background-color: rgb(231, 231, 231);
+}
+/* class is created for the navigation bar */
+.navi{
+    background-color: black;
+}
+.navi ul{
+    overflow: auto;
+    border: 1px solid white;
+}
+.navi li{
+    float: left;
+    list-style: none;
+    border-right: 1px solid white;
+    padding: auto;
+    margin:2px;
+}
+.navi li a{
+    text-decoration: none;
+    font-size: 20px;
+    padding:3px;
+    color:white;
+}
+.navi li a:hover{
+    background-color: green;
+}
+.navi li a:active{
+    background-color: green;
+}
+/*.navi li + li::before {
+    content: " | ";
+    color:white;
+    font-size: 20px;
+}*/
+/* class created for footer */
+.footer{
+    text-align: right;
+    background-color: rgb(231, 231, 231);
+    color:black;
+}
+/* class created for the the content of webpage*/
+.content{
+    font-size:"10px";
+    margin-left: 40px;
+
+}
+/* id created */
+#div1{
+    float:left;
+    width:60%;
+    text-align: justify;
+}
+#div2{
+    float: right;
+    width:30%;  
+    height:100vh;
+    background-color: rgb(231, 231, 231);
+    padding-left: 20px;
+}
+.div2 h3{
+    padding-left: 10px;
+}
+.div2 p{
+    padding-left: 10px;
+}
+.div3{
+    width:1400px;
+    height: 30px;
+    background:rgb(214, 211, 211);
+}
+.div3 p{
+    padding-top:7px;
+}
